@@ -10,6 +10,7 @@ const funFacts = [
     "Gold Roger's real name is Gol D. Roger, which hints at the mysterious 'Will of D' in the series.",
     "The longest fight in One Piece is between Luffy and Katakuri, spanning a whopping 22 episodes in the anime!",
     "One Piece holds the Guinness World Record for the most copies published for the same comic book series by a single author."
+    "Oda grew up reading about Goku’s adventures in the weekly Shonen Jump magazine, and has been vocal about his praise for the series. Its influence is evident throughout One Piece’s narrative."
 ];
 
 // Function to get a random fun fact
