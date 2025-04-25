@@ -67,3 +67,44 @@
   </script>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Go to Home Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    .home-button {
+      margin-top: 50px;
+      background: #0078d7;
+      color: white;
+      border: none;
+      padding: 15px 30px;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .home-button:hover {
+      background: #005a9e;
+    }
+  </style>
+</head>
+<body>
+  <h1>One Piece Website</h1>
+  <p>Click the button below to return to the home page.</p>
+  <button class="home-button" onclick="goToHome()">Go to Home</button>
+
+  <script>
+    function goToHome() {
+      window.location.href = 'index.html';
+    }
+  </script>
+</body>
+</html>
